@@ -3,7 +3,138 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xinyang-yxy.github.io/</loc>
+    <lastmod>2020-06-25T02:50:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/posts/webapp/nodejs/a/</loc>
+    <lastmod>2020-06-25T02:50:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/posts/</loc>
+    <lastmod>2020-06-25T02:50:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/posts/devops/a/</loc>
+    <lastmod>2020-06-25T02:49:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/posts/iot/a/</loc>
+    <lastmod>2020-06-25T02:49:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/posts/cloud/a/</loc>
+    <lastmod>2020-06-25T02:49:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/posts/linux/a/</loc>
+    <lastmod>2020-06-25T02:49:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/posts/webapp/a/</loc>
+    <lastmod>2020-06-25T02:48:59+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xinyang-yxy.github.io/categories/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/tags/css/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/tags/html/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/tags/markdown/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/blog/markdown-syntax/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/blog/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/categories/syntax/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/tags/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/tags/themes/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/categories/themes/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/posts/post1/</loc>
+    <lastmod>2020-04-11T18:49:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/posts/post2/</loc>
+    <lastmod>2020-04-11T18:49:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/blog/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/tags/text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/blog/math-typesetting/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/blog/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -11,11 +142,7 @@
   </url>
   
   <url>
-    <loc>https://xinyang-yxy.github.io/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xinyang-yxy.github.io/</loc>
+    <loc>https://xinyang-yxy.github.io/tags/index/</loc>
   </url>
   
 </urlset>

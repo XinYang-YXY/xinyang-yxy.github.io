@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on XinYang</title>
+    <link>https://xinyang-yxy.github.io/posts/</link>
+    <description>Recent content in Posts on XinYang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2020–Present, XinYang[YXY], all rights reserved.</copyright>
+    <lastBuildDate>Thu, 25 Jun 2020 02:50:05 +0800</lastBuildDate>
+    
+	<atom:link href="https://xinyang-yxy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A</title>
+      <link>https://xinyang-yxy.github.io/posts/webapp/nodejs/a/</link>
+      <pubDate>Thu, 25 Jun 2020 02:50:05 +0800</pubDate>
+      
+      <guid>https://xinyang-yxy.github.io/posts/webapp/nodejs/a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A</title>
+      <link>https://xinyang-yxy.github.io/posts/devops/a/</link>
+      <pubDate>Thu, 25 Jun 2020 02:49:22 +0800</pubDate>
+      
+      <guid>https://xinyang-yxy.github.io/posts/devops/a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A</title>
+      <link>https://xinyang-yxy.github.io/posts/iot/a/</link>
+      <pubDate>Thu, 25 Jun 2020 02:49:15 +0800</pubDate>
+      
+      <guid>https://xinyang-yxy.github.io/posts/iot/a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A</title>
+      <link>https://xinyang-yxy.github.io/posts/cloud/a/</link>
+      <pubDate>Thu, 25 Jun 2020 02:49:09 +0800</pubDate>
+      
+      <guid>https://xinyang-yxy.github.io/posts/cloud/a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A</title>
+      <link>https://xinyang-yxy.github.io/posts/linux/a/</link>
+      <pubDate>Thu, 25 Jun 2020 02:49:04 +0800</pubDate>
+      
+      <guid>https://xinyang-yxy.github.io/posts/linux/a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A</title>
+      <link>https://xinyang-yxy.github.io/posts/webapp/a/</link>
+      <pubDate>Thu, 25 Jun 2020 02:48:59 +0800</pubDate>
+      
+      <guid>https://xinyang-yxy.github.io/posts/webapp/a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://xinyang-yxy.github.io/posts/post1/</link>
+      <pubDate>Sat, 11 Apr 2020 18:49:01 +0200</pubDate>
+      
+      <guid>https://xinyang-yxy.github.io/posts/post1/</guid>
+      <description>welcome to my place</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://xinyang-yxy.github.io/posts/post2/</link>
+      <pubDate>Sat, 11 Apr 2020 18:49:01 +0200</pubDate>
+      
+      <guid>https://xinyang-yxy.github.io/posts/post2/</guid>
+      <description>this is a micro blog used for short updates and link sharing, you can configure its behavior in config.toml</description>
+    </item>
+    
+  </channel>
+</rss>
