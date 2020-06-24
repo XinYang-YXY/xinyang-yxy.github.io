@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://xinyang-yxy.github.io/post/blog/</loc>
-    <lastmod>2020-06-25T00:06:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xinyang-yxy.github.io/</loc>
-    <lastmod>2020-06-25T00:06:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xinyang-yxy.github.io/post/</loc>
-    <lastmod>2020-06-25T00:06:59+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://xinyang-yxy.github.io/categories/</loc>
   </url>
   
@@ -27,6 +12,10 @@
   
   <url>
     <loc>https://xinyang-yxy.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xinyang-yxy.github.io/</loc>
   </url>
   
 </urlset>
