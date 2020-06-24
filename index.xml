@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Sit</title>
+    <link>https://xinyang-yxy.github.io/</link>
+    <description>Recent content on My New Hugo Sit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jun 2020 00:06:59 +0800</lastBuildDate>
+    
+	<atom:link href="https://xinyang-yxy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://xinyang-yxy.github.io/post/blog/</link>
+      <pubDate>Thu, 25 Jun 2020 00:06:59 +0800</pubDate>
+      
+      <guid>https://xinyang-yxy.github.io/post/blog/</guid>
+      <description>Qn1  a)
+public static List&amp;lt;int&amp;gt; CheckStock(List&amp;lt;Product&amp;gt; ps) { var toBeRestock = ps.Where(i =&amp;gt; i.Qty &amp;lt;= 10).Select(i =&amp;gt; i.Id).ToList(); return toBeRestock; } b)
+public static List&amp;lt;int&amp;gt; CheckStock(List&amp;lt;Product&amp;gt; ps) { var query = from s in ps where s.Qty &amp;lt;= 10 select s.Id; var toBeRestock = query.ToList(); return toBeRestock; } Qn2   Advantages  Combined with ORM framework such as EntityFramework, it allows a type-safe encoding of database query C# compiler checks for syntax errors of query C# compiler checks for semantic errors of the query  For example, relational property among models.</description>
+    </item>
+    
+    <item>
+      <title>get in touch</title>
+      <link>https://xinyang-yxy.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xinyang-yxy.github.io/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

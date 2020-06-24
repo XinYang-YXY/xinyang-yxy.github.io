@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=https://xinyang-yxy.github.io/css/syntax.css>
+    <link rel="stylesheet" href=https://xinyang-yxy.github.io/css/style.css>
+    <script src="https://kit.fontawesome.com/1b7478c139.js" crossorigin="anonymous"></script>
+    <title>My New Hugo Sit</title>
+  </head><body><aside id="sidenav">
+    <header>
+    
+
+    <a id="branding" href=https://xinyang-yxy.github.io>
+        
+            My New Hugo Sit
+        
+    </a>
+    </header>
+
+    <nav>
+        
+    </nav>
+</aside>
+<main id="main">
+            <a href="javascript:void(0)" id="closebtn" onclick="navToggle()"><i class="fas fa-bars fa-lg"></i></a>
+            <div class="content">
+    
+    <h1 id="title">Hello World</h1>
+    
+      
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#qn1">Qn1</a></li>
+    <li><a href="#qn2">Qn2</a></li>
+    <li><a href="#qn3">Qn3</a></li>
+  </ul>
+</nav>
+    <h2 id="qn1">Qn1</h2>
+<hr>
+<p>a)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> List&lt;<span style="color:#66d9ef">int</span>&gt; CheckStock(List&lt;Product&gt; ps)
+        {
+            <span style="color:#66d9ef">var</span> toBeRestock = ps.Where(i =&gt; i.Qty &lt;= <span style="color:#ae81ff">10</span>).Select(i =&gt; i.Id).ToList();
+            <span style="color:#66d9ef">return</span> toBeRestock;
+
+        }
+</code></pre></div><p>b)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> List&lt;<span style="color:#66d9ef">int</span>&gt; CheckStock(List&lt;Product&gt; ps)
+        {
+            <span style="color:#66d9ef">var</span> query = <span style="color:#66d9ef">from</span> s <span style="color:#66d9ef">in</span> ps
+                        <span style="color:#66d9ef">where</span> s.Qty &lt;= <span style="color:#ae81ff">10</span>
+                        <span style="color:#66d9ef">select</span> s.Id;
+            <span style="color:#66d9ef">var</span> toBeRestock = query.ToList();
+            <span style="color:#66d9ef">return</span> toBeRestock;
+        }
+</code></pre></div><h2 id="qn2">Qn2</h2>
+<hr>
+<ul>
+<li>Advantages
+<ul>
+<li>Combined with ORM framework such as EntityFramework, it allows a type-safe encoding of database query</li>
+<li>C# compiler checks for syntax errors of query</li>
+<li>C# compiler checks for semantic errors of the query
+<ul>
+<li>For example, relational property among models.</li>
+<li>SQL errors become type errors.</li>
+</ul>
+</li>
+<li>The support for NoSQL database comes nearly free.</li>
+<li>Database migration does not affect code.</li>
+<li>SQL injection is handled automatically</li>
+</ul>
+</li>
+<li>Disadvantages
+<ul>
+<li>It has a stiff learning curve</li>
+<li>It is a bit unnatural to express certain queries, such as join and groupby.</li>
+</ul>
+</li>
+</ul>
+<h2 id="qn3">Qn3</h2>
+<hr>
+<ol>
+<li></li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#">
+<span style="color:#66d9ef">var</span> book1 = <span style="color:#66d9ef">new</span> Book {Title = <span style="color:#e6db74">&#34;Innovative Technologies for Market Leadership: Investing in the Future&#34;</span>, Author = <span style="color:#e6db74">&#34;Glauner and Plugmann&#34;</span>, ISBN = <span style="color:#e6db74">&#34;978-3-030-41308-8&#34;</span>};
+_context.Book.Add(book1);
+_context.SaveChanges();
+</code></pre></div><ol start="2">
+<li></li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#66d9ef">var</span> ISBN = <span style="color:#e6db74">&#34;978-3-030-41308-8&#34;</span>;
+Book myBook = _context.Book.Where(b =&gt; b.ISBN == ISBN);
+</code></pre></div><ol start="3">
+<li></li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#66d9ef">var</span> ISBN = <span style="color:#e6db74">&#34;978-3-030-41308-8&#34;</span>;
+Book myBook = _context.Book.Where(b =&gt; b.ISBN == ISBN);
+_context.Book.Remove(myBook);
+_context.SaveChanges();
+</code></pre></div>
+    
+    <div class="nav-next-prev">
+        <div class="nav-prev">
+            
+                <a class="grayed-out" href="javascript:void()"><i class="fas fa-chevron-left"></i></a>
+            
+        </div>
+        <a class="nav-top" href="#">top</i></a>
+        <div class="nav-next">
+            
+                <a class="grayed-out" href="javascript:void()"><i class="fas fa-chevron-right"></i></a>
+            
+        </div>
+    </div>
+    
+
+            </div><footer>
+<div class="footer-content">
+
+
+</div>
+</footer></main>
+    </body>
+    <script src=https://xinyang-yxy.github.io/js/navbutton.js></script>
+</html>
