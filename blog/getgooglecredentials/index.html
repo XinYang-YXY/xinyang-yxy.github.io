@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Doing What I love, daily.">
+    <meta name="Author" content="XinYang[YXY]">
+    <meta name="keywords" content="YXY blog">
+    <link rel="stylesheet" href=https://xinyang-yxy.github.io/css/syntax.css>
+    <link rel="stylesheet" href=https://xinyang-yxy.github.io/css/style.css>
+    <script src="https://kit.fontawesome.com/1b7478c139.js" crossorigin="anonymous"></script>
+    <title>XinYang</title>
+  </head><body><aside id="sidenav">
+    <header>
+    
+        <a href=https://xinyang-yxy.github.io><img src="https://xinyang-yxy.github.io/avatar.png" alt="avatar"></a>
+        
+    
+
+    <a id="branding" href=https://xinyang-yxy.github.io>
+        
+            XinYang
+        
+    </a>
+    </header>
+
+    <nav>
+        
+            		
+            <a href="/"
+                
+            >
+                <i class="fas fa-home fa-sm"></i>
+                <span>home</span>
+            </a>
+        
+            		
+            <a href="/blog/"
+                
+            >
+                <i class="fas fa-keyboard fa-ms"></i>
+                <span>blog</span>
+            </a>
+        
+            		
+            <a href="/tags"
+                
+            >
+                <i class="fas fa-tags fa-ms"></i>
+                <span>tags</span>
+            </a>
+        
+            		
+            <a href="https://github.com/XinYang-YXY"
+                
+                    target="_blank"
+                
+            >
+                <i class="fab fa-github fa-ms"></i>
+                <span>github</span>
+            </a>
+        
+            		
+            <a href="/index.xml"
+                
+            >
+                <i class="fas fa-rss fa-ms"></i>
+                <span>RSS</span>
+            </a>
+        
+            		
+            <a href="/contact"
+                
+            >
+                <i class="far fa-envelope"></i>
+                <span>contact</span>
+            </a>
+        
+    </nav>
+</aside>
+<main id="main">
+            <a href="javascript:void(0)" id="closebtn" onclick="navToggle()"><i class="fas fa-bars fa-lg"></i></a>
+            <div class="content">
+    
+    <h1 id="title">Quick guide to obtain your Google client credentials</h1>
+    
+      
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#go-to-gcp-google-cloud-platform">Go to GCP [Google Cloud Platform]</a></li>
+  </ul>
+</nav>
+    <h2 id="go-to-gcp-google-cloud-platform">Go to GCP [Google Cloud Platform]</h2>
+<ol>
+<li>Open the <a href="https://cloud.google.com/">GCP URL</a> into your browser.</li>
+<li>Sign in to your GCP.</li>
+<li>Click on the console button on the top right part of the page.</li>
+<li>Tick the 2 boxes to agree if this is the first time you are accessing GCP.</li>
+<li>Find the burger button at the top left part of the page.</li>
+<li>Click on the 4th option called &lsquo;APIs &amp; Services&rsquo;.</li>
+<li>Create a project if you didn&rsquo;t.</li>
+<li>Select the project you created at the left hand side of the search bar.</li>
+<li>At the left bar, click on the credentials tab.</li>
+<li>Click the &lsquo;+ CREATE CREDENTIALS&rsquo; button at the left hand side of the &lsquo;DELETE&rsquo; button.</li>
+<li>A dropdown menu will be shown, select the second option called &lsquo;OAuth client ID&rsquo;.</li>
+<li>Click on the &lsquo;CONFIGURE CONSENT SCREEN&rsquo; button. [If you see field asking for application type, please jump to step 15]</li>
+<li>User type is External.</li>
+<li>Type in a name in the Application name field, scroll down and click on the save button.</li>
+<li>Select &lsquo;Web application&rsquo; as the Application type.</li>
+<li>Scroll down to &lsquo;Authorised redirect URIs&rsquo;.</li>
+<li>Click on &lsquo;ADD URI&rsquo;. Paste in</li>
+</ol>
+<pre><code>http://127.0.0.1:3000/auth/google/callback
+</code></pre><ol start="18">
+<li>Create on &lsquo;Create&rsquo;.</li>
+<li>A modal should jump out.</li>
+<li>First part is your client ID, and the second part is your Client Secret.</li>
+<li>DONE!</li>
+</ol>
+
+    
+    <div class="nav-next-prev">
+        <div class="nav-prev">
+            
+                <a href="https://xinyang-yxy.github.io/blog/markdown-syntax/"><i class="fas fa-chevron-left"></i></a>
+            
+        </div>
+        <a class="nav-top" href="#">top</i></a>
+        <div class="nav-next">
+            
+                <a class="grayed-out" href="javascript:void()"><i class="fas fa-chevron-right"></i></a>
+            
+        </div>
+    </div>
+    
+
+            </div><footer>
+<div class="footer-content">
+
+
+<p class="copyright meta">Copyright © 2020–Present, XinYang[YXY], all rights reserved.</p>
+
+</div>
+</footer></main>
+    </body>
+    <script src=https://xinyang-yxy.github.io/js/navbutton.js></script>
+</html>

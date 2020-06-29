@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>Test</title>
-      <link>https://xinyang-yxy.github.io/blog/test/</link>
+      <title>Quick guide to obtain your Google client credentials</title>
+      <link>https://xinyang-yxy.github.io/blog/getgooglecredentials/</link>
       <pubDate>Thu, 25 Jun 2020 03:29:30 +0800</pubDate>
       
-      <guid>https://xinyang-yxy.github.io/blog/test/</guid>
-      <description></description>
+      <guid>https://xinyang-yxy.github.io/blog/getgooglecredentials/</guid>
+      <description>Go to GCP [Google Cloud Platform]  Open the GCP URL into your browser. Sign in to your GCP. Click on the console button on the top right part of the page. Tick the 2 boxes to agree if this is the first time you are accessing GCP. Find the burger button at the top left part of the page. Click on the 4th option called &amp;lsquo;APIs &amp;amp; Services&amp;rsquo;. Create a project if you didn&amp;rsquo;t.</description>
     </item>
     
     <item>
